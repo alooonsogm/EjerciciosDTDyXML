@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT telefonos (telefono)+>
+<!ELEMENT telefono (serieTerminal, datosTerminal, camaras)>
+<!ATTLIST telefono id ID #REQUIRED>
+<!ELEMENT serieTerminal (#PCDATA)>
+
+<!ELEMENT datosTerminal (marca, modelo, pantalla, sistemaOperativo, carcasa)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+
+<!ELEMENT pantalla (tamano, tecnologia, densidadDePuntos)>
+<!ELEMENT tamano (#PCDATA)>
+<!ELEMENT tecnologia (#PCDATA)>
+<!ELEMENT densidadDePuntos (#PCDATA)>
+
+<!ELEMENT sistemaOperativo (#PCDATA)>
+
+<!ELEMENT carcasa (color)>
+<!ATTLIST carcasa material CDATA "plastico">
+<!ELEMENT color (#PCDATA)>
+ 
+<!ELEMENT camaras (camara)+>
+<!ELEMENT camara (resolucion, tipo)>
+<!ELEMENT resolucion (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>

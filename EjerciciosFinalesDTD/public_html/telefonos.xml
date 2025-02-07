@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE telefonos SYSTEM "telefonos.dtd">
+<telefonos>
+    <telefono id="id_1">
+        <serieTerminal>5639752</serieTerminal>
+        <datosTerminal>
+            <marca>iphone</marca>
+            <modelo>XR</modelo>
+            <pantalla>
+                <tamano>10</tamano>
+                <tecnologia>OLED</tecnologia>
+                <densidadDePuntos>22</densidadDePuntos>
+            </pantalla>
+            <sistemaOperativo>IOS</sistemaOperativo>
+            <carcasa material="goma">
+                <color>rojo</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>1080</resolucion>
+                <tipo>trasera</tipo>
+            </camara>
+            <camara>
+                <resolucion>1080</resolucion>
+                <tipo>frontal</tipo>
+            </camara>
+        </camaras>
+    </telefono>
+
+    <telefono id="id_2"> 
+        <serieTerminal>1890303</serieTerminal>
+        <datosTerminal>
+            <marca>xiaomi</marca>
+            <modelo>serie 3</modelo>
+            <pantalla>
+                <tamano>15</tamano>
+                <tecnologia>OLED</tecnologia>
+                <densidadDePuntos>17</densidadDePuntos>
+            </pantalla>
+            <sistemaOperativo>Android</sistemaOperativo>
+            <carcasa material="vidrio">
+                <color>negro</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>720</resolucion>
+                <tipo>trasera</tipo>
+            </camara>
+        </camaras>
+    </telefono>
+
+    <telefono id="id_3">
+        <serieTerminal>7356621</serieTerminal>
+        <datosTerminal>
+            <marca>iphone</marca>
+            <modelo>13</modelo>
+            <pantalla>
+                <tamano>13</tamano>
+                <tecnologia>OLED</tecnologia>
+                <densidadDePuntos>30</densidadDePuntos>
+            </pantalla>
+            <sistemaOperativo>IOS</sistemaOperativo>
+            <carcasa material="fibra de carbono">
+                <color>blanco</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>1080</resolucion>
+                <tipo>frontal</tipo>
+            </camara>
+        </camaras>
+    </telefono>
+
+    <telefono id="id_4">
+        <serieTerminal>0086527</serieTerminal>
+        <datosTerminal>
+            <marca>alcatel</marca>
+            <modelo>r32</modelo>
+            <pantalla>
+                <tamano>8</tamano>
+                <tecnologia>OLED</tecnologia>
+                <densidadDePuntos>13</densidadDePuntos>
+            </pantalla>
+            <sistemaOperativo>Android</sistemaOperativo>
+            <carcasa>
+                <color>gris</color>
+            </carcasa>
+        </datosTerminal>
+        <camaras>
+            <camara>
+                <resolucion>720</resolucion>
+                <tipo>frontal</tipo>
+            </camara>
+            <camara>
+                <resolucion>500</resolucion>
+                <tipo>trasera</tipo>
+            </camara>
+        </camaras>
+    </telefono>
+</telefonos>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE canalesTV SYSTEM "canalesTV.dtd">
+<canalesTV>
+    <canal idCanal="id_01">
+        <nombreCanal>boing</nombreCanal>
+        <programa idref="id_01"> 
+            <presentador>Alonso</presentador>
+            <horario>LAS 4</horario>
+            <nivelDeAudiencia>1000</nivelDeAudiencia>
+            <contenidos>entretenimiento</contenidos>
+        </programa>
+        <telediarioMatinal>
+            <presentadorNoticias>
+                <nombrePresentador>Miguel</nombrePresentador>
+                <apellidosPrsentador>GARCIA LAZARO</apellidosPrsentador>
+            </presentadorNoticias>
+            <horario>Las 7</horario>
+        </telediarioMatinal>
+        <director>
+            <nombreDirector>Fran</nombreDirector>
+            <apellidosDirector>Daldovo Martinez</apellidosDirector>
+        </director>
+    </canal>
+    
+    <canal idCanal="id_02">
+        <nombreCanal>la 2</nombreCanal>
+        <programa idref="id_02">
+            <presentador>Alonso</presentador>
+            <horario>LAS 6</horario>
+            <nivelDeAudiencia>500</nivelDeAudiencia>
+        </programa>
+        <telediarioMatinal>
+            <presentadorNoticias>
+                <nombrePresentador>Miguel</nombrePresentador>
+                <apellidosPrsentador>GARCIA LAZARO</apellidosPrsentador>
+            </presentadorNoticias>
+            <presentadorNoticias>
+                <nombrePresentador>Antonio</nombrePresentador>
+                <apellidosPrsentador>Rodriguez Rojo</apellidosPrsentador>
+            </presentadorNoticias>
+            <horario>Las 7</horario>
+        </telediarioMatinal>
+        <directora>
+            <nombreDirectora>Maria</nombreDirectora>
+            <apellidosDirectora>Martinez Dominguez</apellidosDirectora>
+        </directora>
+    </canal>
+    
+    <canal idCanal="id_03">
+        <nombreCanal>Antena 3</nombreCanal>
+        <programa idref="id_03">
+            <presentador>Alonso</presentador>
+            <horario>LAS 4</horario>
+            <nivelDeAudiencia>1000</nivelDeAudiencia>
+        </programa>
+        <programa idref="id_03">
+            <presentador>Lucas</presentador>
+            <horario>LAS 12</horario>
+            <nivelDeAudiencia>100</nivelDeAudiencia>
+            <contenidos>entretenimiento</contenidos>
+        </programa>
+        <telediarioMatinal>
+            <presentadorNoticias>
+                <nombrePresentador>Miguel</nombrePresentador>
+                <apellidosPrsentador>GARCIA LAZARO</apellidosPrsentador>
+            </presentadorNoticias>
+            <horario>Las 7</horario>
+        </telediarioMatinal>
+        <director>
+            <nombreDirector>Fran</nombreDirector>
+            <apellidosDirector>Daldovo Martinez</apellidosDirector>
+        </director>
+    </canal>
+</canalesTV>

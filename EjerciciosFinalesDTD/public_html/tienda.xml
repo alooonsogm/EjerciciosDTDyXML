@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tienda SYSTEM "tienda.dtd">
+<tienda>
+    <consola nombre="playstation4" id="id_001">
+        <juego id="id_0123" idref="id_001">
+            <nombre>FIFA</nombre>
+            <precio moneda="€">70</precio>
+            <descripcion>Juego de futbol con graficos realistas</descripcion>
+        </juego>
+        <juego id="id_0124" idref="id_001">
+            <nombre>Last of us</nombre>
+            <precio>80</precio>
+            <descripcion>Aventura apocaliptica zombie</descripcion>
+            <idioma>Inglés</idioma>
+        </juego>
+        <accesorio tipo="mando" idref="id_001">
+            <nombre>Dual Shock</nombre>
+            <precio moneda="$">45</precio>
+            <validoPara>Todo</validoPara>
+        </accesorio>
+        <accesorio tipo="3D" idref="id_001">
+            <nombre>Gafas Oculus</nombre>
+            <precio moneda="Euros">600</precio>
+            <validoPara>Crash, FIFA, Last of Us, Final Fantasy</validoPara>
+        </accesorio>
+    </consola>
+    <consola nombre="wii" id="id_002">
+        <juego id="id_773" idref="id_002">
+            <precio moneda="YEN">6400</precio>
+            <nombre>Zelda twilight princess</nombre>
+            <descripcion>Aventura epica donde Link tendra que recuperar la
+                trifuerza</descripcion>
+            <descuento>5%</descuento>
+        </juego>
+        <juego id="id_779" idref="id_002">
+            <precio>30</precio>
+            <nombre>Super Mario Galaxy</nombre>
+            <descripcion>la vuelta del mejor plataformas</descripcion>
+        </juego>
+        <accesorio idref="id_002">
+            <nombre>Wii fit</nombre>
+            <precio moneda="$">35</precio>
+            <validoPara>wii Sport</validoPara>
+        </accesorio>
+    </consola>
+    <consola nombre="XboxOne" id="id_003">
+        <juego id="id_123" idref="id_003">
+            <precio moneda="Euro">65</precio>
+            <nombre>Gears of Wars</nombre>
+            <descripcion>Disparos y futurismo unidos en este shooter en
+                tercera persona</descripcion>
+            <descuento>5%</descuento>
+        </juego>
+        <juego id="id_456" idref="id_003">
+            <nombre>Skyrim</nombre>
+            <precio>45</precio>
+            <descripcion>Juego de rol en primera persona</descripcion>
+        </juego>
+    </consola>
+    <consola nombre="nintendoSwitch" id="id_004">
+        <juego id="id_567" idref="id_004">
+            <precio moneda="€">50</precio>
+            <nombre>Animal Crossing</nombre>
+            <descripcion>Simulador de vida en una isla poblada por animales antropomórficos</descripcion>
+        </juego>
+        <juego id="id_789" idref="id_004">
+            <precio moneda="€">55</precio>
+            <nombre>Super Smash Bros Ultimate</nombre>
+            <descripcion>Juego de lucha con personajes de diferentes franquicias de videojuegos</descripcion>
+        </juego>
+        <accesorio tipo="estuche" idref="id_004">
+            <nombre>Estuche de viaje</nombre>
+            <precio moneda="€">20</precio>
+            <validoPara>Animal Crossing, Super Smash Bros Ultimate</validoPara>
+        </accesorio>
+    </consola>
+</tienda>

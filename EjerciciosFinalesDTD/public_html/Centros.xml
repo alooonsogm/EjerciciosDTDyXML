@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE centros SYSTEM "centros.dtd">
+<centros>
+    <ies id="ies_001">
+        <nombre>Domenico Scarlatti</nombre>
+        <localidad>Aranjuez</localidad>
+        <cp>28003</cp>
+        <estudios>
+            <cicloFormativo id="DAW">  
+                <alumno num="n_001">    
+                    <nombeAlumno>Robin</nombeAlumno>
+                    <apellido>Jáquez</apellido>
+                    <nota>10</nota>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo>  
+                <alumno num="n_002">  
+                    <nombeAlumno>Paco</nombeAlumno>
+                    <apellido>García</apellido>
+                </alumno>
+            </cicloFormativo>
+        </estudios>  
+    </ies>
+   
+    <ies id="ies_002">
+        <nombre>lope de vega</nombre>
+        <localidad>Madrid</localidad>
+        <estudios>
+            <cicloFormativo>  
+                <alumno num="n_003">  
+                    <nombeAlumno>Pedro</nombeAlumno>
+                    <apellido>Perez</apellido>
+                    <nota>10</nota>
+                </alumno>
+            </cicloFormativo>
+            <cicloFormativo id="cocina">  
+                <alumna num="n_004">   
+                    <nombeAlumno>maria</nombeAlumno>
+                    <apellido>Perez</apellido>
+                </alumna>
+                <alumna num="n_005">   
+                    <nombeAlumno>daniela</nombeAlumno>
+                    <apellido>garcia</apellido>
+                    <nota>6.5</nota>
+                </alumna>
+            </cicloFormativo>
+        </estudios>  
+    </ies>
+</centros>

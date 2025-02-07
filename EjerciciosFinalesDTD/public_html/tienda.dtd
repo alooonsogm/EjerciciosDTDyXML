@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT tienda (consola)+>
+<!ELEMENT consola (juego+, accesorio*)>
+<!ATTLIST consola nombre CDATA #REQUIRED>
+<!ATTLIST consola id ID #REQUIRED>
+
+<!ELEMENT juego (((nombre, precio)|(precio, nombre)), descripcion, (idioma|descuento)?)>
+<!ATTLIST juego id ID #REQUIRED>
+<!ATTLIST juego idref IDREF #REQUIRED>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+
+<!ELEMENT accesorio (nombre, precio, validoPara)>
+<!ATTLIST accesorio tipo CDATA #IMPLIED>
+<!ATTLIST accesorio idref IDREF #REQUIRED>
+<!ELEMENT validoPara (#PCDATA)>

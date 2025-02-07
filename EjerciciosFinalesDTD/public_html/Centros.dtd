@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT centros (ies)+>
+<!ELEMENT ies (nombre,localidad,cp?,estudios)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT cp (#PCDATA)>
+<!ELEMENT estudios (cicloFormativo)+>
+<!ELEMENT cicloFormativo  (alumno|alumna)+>
+
+<!ELEMENT alumno (nombeAlumno,apellido,nota?)>
+<!ELEMENT alumna (nombeAlumno,apellido,nota?)>
+<!ELEMENT nombeAlumno (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+
+
+<!ATTLIST ies id ID #REQUIRED>
+<!ATTLIST cicloFormativo id ID #IMPLIED>
+<!ATTLIST alumno num ID #REQUIRED>
+<!ATTLIST alumna num ID #REQUIRED>
